@@ -1,0 +1,22 @@
+{
+	"pzmod init": {
+		"prefix": "pzmod",
+		"body": [
+			"module $1 {",
+			"    imports {",
+			"        $2",
+			"    }",
+			"    recipe $3 {",
+			"        ",
+			"    }",
+			"    item $4 {",
+			"        ",
+			"    }",
+			"}"
+		],
+		"description": [
+			"生成一个mod结构",
+			""
+		]
+	}
+}

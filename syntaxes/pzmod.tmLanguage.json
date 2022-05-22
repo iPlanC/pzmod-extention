@@ -35,12 +35,12 @@
 		},
 		"strings": {
 			"name": "string.quoted.other.lua",
-			"begin": "(=|:) ",
+			"begin": "(\\s*(:|=)\\s*)",
 			"end": ",",
 			"patterns": [
 				{
 					"name": "constant.character.escape.lua",
-					"match": "\\b(?!((?i)true(?-i)|(?i)false(?-i)))[a-zA-Z][a-zA-Z0-9-_ ]+\\b"
+					"match": "\\b[^0-9][\\w\\-\\. ]+\\b"
 				}
 			]
 		},
@@ -80,7 +80,7 @@
 			"patterns": [
 				{
 					"name": "comment.block.lua",
-					"match": "\\b\\/\\*(\\s|\\S)*\\*\\/\\b"
+					"match": "\\/\\*(\\s|\\S)*\\*\\/"
 				}
 			]
 		}

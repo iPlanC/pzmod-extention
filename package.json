@@ -1,37 +1,74 @@
 {
-  "name": "pzmodhighlight",
-  "displayName": "PZModHighlight",
-  "description": "Project Zomboid mod highlight",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.67.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [
-      {
-        "id": "lua",
-        "aliases": [
-          "PZMod",
-          "lua"
-        ],
-        "extensions": [
-          ".txt"
-        ],
-        "configuration": "./language-configuration.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "lua",
-        "scopeName": "source.txt",
-        "path": "./syntaxes/txt.tmLanguage.json"
-      }
-    ]
-  },
-  "dependencies": {
-    "vsce": "^2.8.0"
-  }
+	"manifestVersion": 1,
+	"name": "PZMod-Extention",
+	"displayName": "PZMod-Extention",
+	"description": "Project Zomboid Mod Extention",
+	"author": "PlanC",
+	"license": "MIT",
+	"version": "1.0.0",
+	"publisher": "PlanC",
+	"categories": [
+		"Programming Languages"
+	],
+	"engines": {
+		"vscode": "^1.67.0"
+	},
+	"repository": {
+		"url": "https://github.com/iPlanC/pzmod-extention"
+	},
+	"icon": "icon.png",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Example configuration",
+			"properties": {
+				"languageServerExample.maxNumberOfProblems": {
+					"scope": "resource",
+					"type": "number",
+					"default": 100,
+					"description": "Controls the maximum number of problems produced by the server."
+				},
+				"languageServerExample.trace.server": {
+					"scope": "window",
+					"type": "string",
+					"enum": [
+						"off",
+						"messages",
+						"verbose"
+					],
+					"default": "off",
+					"description": "Traces the communication between VS Code and the language server."
+				}
+			}
+		},
+		"snippets": [
+			{
+				"language": "PZMod",
+				"path": "./snippets.json"
+			}
+		],
+		"languages": [
+			{
+			  "id": "PZMod",
+			  "aliases": [
+				"PZMod"
+			  ],
+			  "extensions": [
+				".txt"
+			  ],
+			  "configuration": "./language-configuration.json",
+			  "icon": {
+				  "dark": "./icon.png",
+				  "light": "./icon.png"
+			  }
+			}
+		],
+		"grammars": [
+			{
+			  "language": "PZMod",
+			  "scopeName": "source.txt",
+			  "path": "./syntaxes/pzmod.tmLanguage.json"
+			}
+		]
+	}
 }
