@@ -1,6 +1,7 @@
 # 僵尸毁灭工程mod开发插件
 ## 语法高亮
-![](./image/hightlight_demo.png)
+<img src="https://s1.328888.xyz/2022/05/28/tDSkS.png" alt="hightlight demo" border="0"/>
 ## 生成结构
-![](image/struct_demo.gif)
+<img src="https://s1.328888.xyz/2022/05/28/tDBUR.gif" alt="struct demo" border="0"/>
 ## 属性补全
+<img src="https://s1.328888.xyz/2022/05/28/ttutk.gif" alt="property demo" border="0"/>

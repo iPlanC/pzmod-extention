@@ -1,0 +1,2842 @@
+{
+    "pzmod init": {
+        "prefix": "pzmod",
+        "body": [
+            "module ${1:} {",
+            "    imports {",
+            "        ${2:}",
+            "    }",
+            "    recipe ${3:} {",
+            "        ",
+            "    }",
+            "    item ${4:} {",
+            "        ",
+            "    }",
+            "}"
+        ],
+        "description": [
+            "\u751f\u6210\u4e00\u4e2amod\u7ed3\u6784",
+            ""
+        ]
+    },
+    "AcceptMediaType": {
+        "prefix": "AcceptMediaType",
+        "body": [
+            "AcceptMediaType = ${1:string},"
+        ],
+        "description": [
+            "\u5141\u8bb8\u5a92\u4f53\u7c7b\u578b",
+            "string"
+        ]
+    },
+    "ActivatedItem": {
+        "prefix": "ActivatedItem",
+        "body": [
+            "ActivatedItem = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "AimingMod": {
+        "prefix": "AimingMod",
+        "body": [
+            "AimingMod = ${1:Boolean},"
+        ],
+        "description": [
+            "\u7784\u51c6\u955c\u6b66\u5668\u914d\u4ef6",
+            "Boolean"
+        ]
+    },
+    "AimingPerkCritModifier": {
+        "prefix": "AimingPerkCritModifier",
+        "body": [
+            "AimingPerkCritModifier = ${1:},"
+        ],
+        "description": [
+            "\u7784\u51c6\u6280\u80fd\u66b4\u51fb\u7387\u8c03\u6574",
+            ""
+        ]
+    },
+    "AimingPerkHitChanceModifier": {
+        "prefix": "AimingPerkHitChanceModifier",
+        "body": [
+            "AimingPerkHitChanceModifier = ${1:},"
+        ],
+        "description": [
+            "\u7784\u51c6\u6280\u80fd\u547d\u4e2d\u7387\u8c03\u6574",
+            ""
+        ]
+    },
+    "AimingPerkMinAngleModifier": {
+        "prefix": "AimingPerkMinAngleModifier",
+        "body": [
+            "AimingPerkMinAngleModifier = ${1:},"
+        ],
+        "description": [
+            "\u7784\u51c6\u6280\u80fd\u6700\u5c0f\u6563\u5c04\u8c03\u6574",
+            ""
+        ]
+    },
+    "AimingPerkRangeModifier": {
+        "prefix": "AimingPerkRangeModifier",
+        "body": [
+            "AimingPerkRangeModifier = ${1:},"
+        ],
+        "description": [
+            "\u7784\u51c6\u6280\u80fd\u8ddd\u79bb\u8c03\u6574",
+            ""
+        ]
+    },
+    "AimingTime": {
+        "prefix": "AimingTime",
+        "body": [
+            "AimingTime = ${1:},"
+        ],
+        "description": [
+            "\u7784\u51c6\u901f\u5ea6",
+            ""
+        ]
+    },
+    "AimingTimeModifier": {
+        "prefix": "AimingTimeModifier",
+        "body": [
+            "AimingTimeModifier = ${1:},"
+        ],
+        "description": [
+            "\u7784\u51c6\u901f\u5ea6\u8c03\u6574",
+            ""
+        ]
+    },
+    "AlarmSound": {
+        "prefix": "AlarmSound",
+        "body": [
+            "AlarmSound = ${1:},"
+        ],
+        "description": [
+            "\u62a5\u8b66\u5668\u58f0\u97f3",
+            ""
+        ]
+    },
+    "Alcoholic": {
+        "prefix": "Alcoholic",
+        "body": [
+            "Alcoholic = ${1:},"
+        ],
+        "description": [
+            "\u9152\u7cbe\u6d53\u5ea6",
+            ""
+        ]
+    },
+    "AlcoholPower": {
+        "prefix": "AlcoholPower",
+        "body": [
+            "AlcoholPower = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "AlwaysKnockdown": {
+        "prefix": "AlwaysKnockdown",
+        "body": [
+            "AlwaysKnockdown = ${1:Boolean},"
+        ],
+        "description": [
+            "\u5fc5\u5b9a\u51fb\u5012",
+            "Boolean"
+        ]
+    },
+    "AlwaysWelcomeGift": {
+        "prefix": "AlwaysWelcomeGift",
+        "body": [
+            "AlwaysWelcomeGift = ${1:Boolean},"
+        ],
+        "description": [
+            "\u5fc5\u5b9a\u51fa\u751f\u643a\u5e26",
+            "Boolean"
+        ]
+    },
+    "AmmoBox": {
+        "prefix": "AmmoBox",
+        "body": [
+            "AmmoBox = ${1:},"
+        ],
+        "description": [
+            "\u5f39\u836f\u7bb1",
+            ""
+        ]
+    },
+    "AmmoType": {
+        "prefix": "AmmoType",
+        "body": [
+            "AmmoType = ${1:},"
+        ],
+        "description": [
+            "\u5f39\u836f\u7c7b\u522b",
+            ""
+        ]
+    },
+    "AngleFalloff": {
+        "prefix": "AngleFalloff",
+        "body": [
+            "AngleFalloff = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "AngleModifier": {
+        "prefix": "AngleModifier",
+        "body": [
+            "AngleModifier = ${1:},"
+        ],
+        "description": [
+            "\u89d2\u5ea6\u8c03\u6574",
+            ""
+        ]
+    },
+    "AttachmentType": {
+        "prefix": "AttachmentType",
+        "body": [
+            "AttachmentType = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "BadCold": {
+        "prefix": "BadCold",
+        "body": [
+            "BadCold = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "BadInMicrowave": {
+        "prefix": "BadInMicrowave",
+        "body": [
+            "BadInMicrowave = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "BandagePower": {
+        "prefix": "BandagePower",
+        "body": [
+            "BandagePower = ${1:},"
+        ],
+        "description": [
+            "\u7ef7\u5e26\u5f3a\u5ea6",
+            ""
+        ]
+    },
+    "BaseSpeed": {
+        "prefix": "BaseSpeed",
+        "body": [
+            "BaseSpeed = ${1:},"
+        ],
+        "description": [
+            "\u57fa\u7840\u8f66\u8f86\u901f\u5ea6",
+            ""
+        ]
+    },
+    "BaseVolumeRange": {
+        "prefix": "BaseVolumeRange",
+        "body": [
+            "BaseVolumeRange = ${1:},"
+        ],
+        "description": [
+            "\u57fa\u7840\u53d1\u52a8\u673a\u58f0\u97f3\u8303\u56f4",
+            ""
+        ]
+    },
+    "BoredomChange": {
+        "prefix": "BoredomChange",
+        "body": [
+            "BoredomChange = ${1:},"
+        ],
+        "description": [
+            "\u65e0\u804a\u51e0\u7387",
+            ""
+        ]
+    },
+    "BreakSound": {
+        "prefix": "BreakSound",
+        "body": [
+            "BreakSound = ${1:},"
+        ],
+        "description": [
+            "\u635f\u574f\u58f0\u97f3",
+            ""
+        ]
+    },
+    "BringToBearSound": {
+        "prefix": "BringToBearSound",
+        "body": [
+            "BringToBearSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Calories": {
+        "prefix": "Calories",
+        "body": [
+            "Calories = ${1:},"
+        ],
+        "description": [
+            "\u5361\u8def\u91cc\u542b\u91cf",
+            ""
+        ]
+    },
+    "CanBandage": {
+        "prefix": "CanBandage",
+        "body": [
+            "CanBandage = ${1:Boolean},"
+        ],
+        "description": [
+            "\u53ef\u88ab\u7ef7\u5e26\u6cbb\u7597",
+            "Boolean"
+        ]
+    },
+    "CanBarricade": {
+        "prefix": "CanBarricade",
+        "body": [
+            "CanBarricade = ${1:Boolean},"
+        ],
+        "description": [
+            "\u53ef\u88ab\u52a0\u56fa",
+            "Boolean"
+        ]
+    },
+    "CanBePlaced": {
+        "prefix": "CanBePlaced",
+        "body": [
+            "CanBePlaced = ${1:Boolean},"
+        ],
+        "description": [
+            "\u53ef\u88ab\u653e\u7f6e",
+            "Boolean"
+        ]
+    },
+    "CanBeRemote": {
+        "prefix": "CanBeRemote",
+        "body": [
+            "CanBeRemote = ${1:Boolean},"
+        ],
+        "description": [
+            "\u53ef\u88ab\u9065\u63a7",
+            "Boolean"
+        ]
+    },
+    "CanBeReused": {
+        "prefix": "CanBeReused",
+        "body": [
+            "CanBeReused = ${1:Boolean},"
+        ],
+        "description": [
+            "\u53ef\u88ab\u590d\u7528",
+            "Boolean"
+        ]
+    },
+    "CanBeWrite": {
+        "prefix": "CanBeWrite",
+        "body": [
+            "CanBeWrite = ${1:Boolean},"
+        ],
+        "description": [
+            "\u53ef\u5199",
+            "Boolean"
+        ]
+    },
+    "CannedFood": {
+        "prefix": "CannedFood",
+        "body": [
+            "CannedFood = ${1:},"
+        ],
+        "description": [
+            "\u7f50\u88c5\u98df\u54c1",
+            ""
+        ]
+    },
+    "CanStack": {
+        "prefix": "CanStack",
+        "body": [
+            "CanStack = ${1:Boolean},"
+        ],
+        "description": [
+            "\u53ef\u5806\u53e0",
+            "Boolean"
+        ]
+    },
+    "CanStoreWater": {
+        "prefix": "CanStoreWater",
+        "body": [
+            "CanStoreWater = ${1:Boolean},"
+        ],
+        "description": [
+            "\u53ef\u5b58\u6c34",
+            "Boolean"
+        ]
+    },
+    "CantAttackWithLowestEndurance": {
+        "prefix": "CantAttackWithLowestEndurance",
+        "body": [
+            "CantAttackWithLowestEndurance = ${1:Boolean},"
+        ],
+        "description": [
+            "\u7aed\u529b\u65f6\u4e0d\u53ef\u7528",
+            "Boolean"
+        ]
+    },
+    "cantBeConsolided": {
+        "prefix": "cantBeConsolided",
+        "body": [
+            "cantBeConsolided = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "CantBeFrozen": {
+        "prefix": "CantBeFrozen",
+        "body": [
+            "CantBeFrozen = ${1:Boolean},"
+        ],
+        "description": [
+            "\u4e0d\u53ef\u51b7\u51bb",
+            "Boolean"
+        ]
+    },
+    "CantEat": {
+        "prefix": "CantEat",
+        "body": [
+            "CantEat = ${1:Boolean},"
+        ],
+        "description": [
+            "\u4e0d\u53ef\u98df\u7528",
+            "Boolean"
+        ]
+    },
+    "Capacity": {
+        "prefix": "Capacity",
+        "body": [
+            "Capacity = ${1:},"
+        ],
+        "description": [
+            "\u5bb9\u91cf",
+            ""
+        ]
+    },
+    "Carbohydrates": {
+        "prefix": "Carbohydrates",
+        "body": [
+            "Carbohydrates = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Categories": {
+        "prefix": "Categories",
+        "body": [
+            "Categories = ${1:},"
+        ],
+        "description": [
+            "\u79cd\u7c7b",
+            ""
+        ]
+    },
+    "ClickSound": {
+        "prefix": "ClickSound",
+        "body": [
+            "ClickSound = ${1:},"
+        ],
+        "description": [
+            "\u4ea4\u4e92\u58f0\u97f3",
+            ""
+        ]
+    },
+    "ClipSize": {
+        "prefix": "ClipSize",
+        "body": [
+            "ClipSize = ${1:},"
+        ],
+        "description": [
+            "\u5f39\u5323\u5bb9\u91cf",
+            ""
+        ]
+    },
+    "CloseKillMove": {
+        "prefix": "CloseKillMove",
+        "body": [
+            "CloseKillMove = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "CloseSound": {
+        "prefix": "CloseSound",
+        "body": [
+            "CloseSound = ${1:},"
+        ],
+        "description": [
+            "\u5173\u95ed\u58f0\u97f3",
+            ""
+        ]
+    },
+    "ColorBlue": {
+        "prefix": "ColorBlue",
+        "body": [
+            "ColorBlue = ${1:},"
+        ],
+        "description": [
+            "\u84dd\u8272\u8272\u503c",
+            ""
+        ]
+    },
+    "ColorGreen": {
+        "prefix": "ColorGreen",
+        "body": [
+            "ColorGreen = ${1:},"
+        ],
+        "description": [
+            "\u7eff\u8272\u8272\u503c",
+            ""
+        ]
+    },
+    "ColorRed": {
+        "prefix": "ColorRed",
+        "body": [
+            "ColorRed = ${1:},"
+        ],
+        "description": [
+            "\u7ea2\u8272\u8272\u503c",
+            ""
+        ]
+    },
+    "ConditionLowerChanceOneIn": {
+        "prefix": "ConditionLowerChanceOneIn",
+        "body": [
+            "ConditionLowerChanceOneIn = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ConditionMax": {
+        "prefix": "ConditionMax",
+        "body": [
+            "ConditionMax = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ConsolidateOption": {
+        "prefix": "ConsolidateOption",
+        "body": [
+            "ConsolidateOption = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "CookingSound": {
+        "prefix": "CookingSound",
+        "body": [
+            "CookingSound = ${1:},"
+        ],
+        "description": [
+            "\u70f9\u996a\u58f0\u97f3",
+            ""
+        ]
+    },
+    "Count": {
+        "prefix": "Count",
+        "body": [
+            "Count = ${1:},"
+        ],
+        "description": [
+            "\u6570\u91cf",
+            ""
+        ]
+    },
+    "CountDownSound": {
+        "prefix": "CountDownSound",
+        "body": [
+            "CountDownSound = ${1:},"
+        ],
+        "description": [
+            "\u5012\u8ba1\u65f6\u58f0\u97f3",
+            ""
+        ]
+    },
+    "critDmgMultiplier": {
+        "prefix": "critDmgMultiplier",
+        "body": [
+            "critDmgMultiplier = ${1:},"
+        ],
+        "description": [
+            "\u66b4\u51fb\u4f24\u5bb3\u8c03\u6574",
+            ""
+        ]
+    },
+    "CritDmgMultiplier": {
+        "prefix": "CritDmgMultiplier",
+        "body": [
+            "CritDmgMultiplier = ${1:},"
+        ],
+        "description": [
+            "\u66b4\u51fb\u4f24\u5bb3\u8c03\u6574",
+            ""
+        ]
+    },
+    "CriticalChance": {
+        "prefix": "CriticalChance",
+        "body": [
+            "CriticalChance = ${1:},"
+        ],
+        "description": [
+            "\u66b4\u51fb\u7387",
+            ""
+        ]
+    },
+    "CustomContextMenu": {
+        "prefix": "CustomContextMenu",
+        "body": [
+            "CustomContextMenu = ${1:},"
+        ],
+        "description": [
+            "\u81ea\u5b9a\u4e49\u5185\u5bb9\u83dc\u5355",
+            ""
+        ]
+    },
+    "CustomEatSound": {
+        "prefix": "CustomEatSound",
+        "body": [
+            "CustomEatSound = ${1:},"
+        ],
+        "description": [
+            "\u81ea\u5b9a\u4e49\u98df\u7528\u58f0\u97f3",
+            ""
+        ]
+    },
+    "DamageCategory": {
+        "prefix": "DamageCategory",
+        "body": [
+            "DamageCategory = ${1:},"
+        ],
+        "description": [
+            "\u4f24\u5bb3\u7c7b\u522b",
+            ""
+        ]
+    },
+    "DamageMakeHole": {
+        "prefix": "DamageMakeHole",
+        "body": [
+            "DamageMakeHole = ${1:},"
+        ],
+        "description": [
+            "\u4f24\u5bb3\u4ea7\u751f\u5f39\u5b54",
+            ""
+        ]
+    },
+    "DamageModifier": {
+        "prefix": "DamageModifier",
+        "body": [
+            "DamageModifier = ${1:},"
+        ],
+        "description": [
+            "\u4f24\u5bb3\u8c03\u6574",
+            ""
+        ]
+    },
+    "DangerousUncooked": {
+        "prefix": "DangerousUncooked",
+        "body": [
+            "DangerousUncooked = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "DaysFresh": {
+        "prefix": "DaysFresh",
+        "body": [
+            "DaysFresh = ${1:},"
+        ],
+        "description": [
+            "\u65b0\u9c9c\u5929\u6570",
+            ""
+        ]
+    },
+    "DaysTotallyRotten": {
+        "prefix": "DaysTotallyRotten",
+        "body": [
+            "DaysTotallyRotten = ${1:},"
+        ],
+        "description": [
+            "\u5f7b\u5e95\u8150\u70c2\u5929\u6570",
+            ""
+        ]
+    },
+    "DigitalPadlock": {
+        "prefix": "DigitalPadlock",
+        "body": [
+            "DigitalPadlock = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "DisappearOnUse": {
+        "prefix": "DisappearOnUse",
+        "body": [
+            "DisappearOnUse = ${1:Boolean},"
+        ],
+        "description": [
+            "\u4f7f\u7528\u65f6\u6d88\u5931",
+            "Boolean"
+        ]
+    },
+    "DisplayCategory": {
+        "prefix": "DisplayCategory",
+        "body": [
+            "DisplayCategory = ${1:},"
+        ],
+        "description": [
+            "\u663e\u793a\u7c7b\u522b",
+            ""
+        ]
+    },
+    "DisplayName": {
+        "prefix": "DisplayName",
+        "body": [
+            "DisplayName = ${1:},"
+        ],
+        "description": [
+            "\u663e\u793a\u540d\u5b57",
+            ""
+        ]
+    },
+    "DoorDamage": {
+        "prefix": "DoorDamage",
+        "body": [
+            "DoorDamage = ${1:},"
+        ],
+        "description": [
+            "\u5bf9\u95e8\u7684\u4f24\u5bb3",
+            ""
+        ]
+    },
+    "DoorHitSound": {
+        "prefix": "DoorHitSound",
+        "body": [
+            "DoorHitSound = ${1:},"
+        ],
+        "description": [
+            "\u653b\u51fb\u95e8\u58f0\u97f3",
+            ""
+        ]
+    },
+    "EatType": {
+        "prefix": "EatType",
+        "body": [
+            "EatType = ${1:},"
+        ],
+        "description": [
+            "\u98df\u7528\u79cd\u7c7b",
+            ""
+        ]
+    },
+    "EjectAmmoSound": {
+        "prefix": "EjectAmmoSound",
+        "body": [
+            "EjectAmmoSound = ${1:},"
+        ],
+        "description": [
+            "\u9000\u5f39\u58f0\u97f3",
+            ""
+        ]
+    },
+    "EjectAmmoStartSound": {
+        "prefix": "EjectAmmoStartSound",
+        "body": [
+            "EjectAmmoStartSound = ${1:},"
+        ],
+        "description": [
+            "\u9000\u5f39\u5f00\u59cb\u58f0\u97f3",
+            ""
+        ]
+    },
+    "EjectAmmoStopSound": {
+        "prefix": "EjectAmmoStopSound",
+        "body": [
+            "EjectAmmoStopSound = ${1:},"
+        ],
+        "description": [
+            "\u9000\u5f39\u7ed3\u675f\u58f0\u97f3",
+            ""
+        ]
+    },
+    "EnduranceChange": {
+        "prefix": "EnduranceChange",
+        "body": [
+            "EnduranceChange = ${1:},"
+        ],
+        "description": [
+            "\u8010\u529b\u4fee\u6539",
+            ""
+        ]
+    },
+    "EnduranceMod": {
+        "prefix": "EnduranceMod",
+        "body": [
+            "EnduranceMod = ${1:},"
+        ],
+        "description": [
+            "\u8010\u529b\u8c03\u6574",
+            ""
+        ]
+    },
+    "EquippedNoSprint": {
+        "prefix": "EquippedNoSprint",
+        "body": [
+            "EquippedNoSprint = ${1:Boolean},"
+        ],
+        "description": [
+            "\u88c5\u5907\u540e\u4e0d\u53ef\u75be\u8dd1",
+            "Boolean"
+        ]
+    },
+    "EquipSound": {
+        "prefix": "EquipSound",
+        "body": [
+            "EquipSound = ${1:},"
+        ],
+        "description": [
+            "\u88c5\u5907\u58f0\u97f3",
+            ""
+        ]
+    },
+    "EvolvedRecipe": {
+        "prefix": "EvolvedRecipe",
+        "body": [
+            "EvolvedRecipe = ${1:},"
+        ],
+        "description": [
+            "\u53c2\u4e0e\u5408\u6210\u8868",
+            ""
+        ]
+    },
+    "EvolvedRecipeName": {
+        "prefix": "EvolvedRecipeName",
+        "body": [
+            "EvolvedRecipeName = ${1:},"
+        ],
+        "description": [
+            "\u53c2\u4e0e\u5408\u6210\u8868\u540d\u79f0",
+            ""
+        ]
+    },
+    "ExplosionPower": {
+        "prefix": "ExplosionPower",
+        "body": [
+            "ExplosionPower = ${1:},"
+        ],
+        "description": [
+            "\u7206\u70b8\u4f24\u5bb3",
+            ""
+        ]
+    },
+    "ExplosionRange": {
+        "prefix": "ExplosionRange",
+        "body": [
+            "ExplosionRange = ${1:},"
+        ],
+        "description": [
+            "\u7206\u70b8\u8303\u56f4",
+            ""
+        ]
+    },
+    "ExplosionSound": {
+        "prefix": "ExplosionSound",
+        "body": [
+            "ExplosionSound = ${1:},"
+        ],
+        "description": [
+            "\u7206\u70b8\u58f0\u6709",
+            ""
+        ]
+    },
+    "ExplosionTimer": {
+        "prefix": "ExplosionTimer",
+        "body": [
+            "ExplosionTimer = ${1:},"
+        ],
+        "description": [
+            "\u7206\u70b8\u8ba1\u65f6\u5668",
+            ""
+        ]
+    },
+    "ExtraDamage": {
+        "prefix": "ExtraDamage",
+        "body": [
+            "ExtraDamage = ${1:},"
+        ],
+        "description": [
+            "\u989d\u5916\u4f24\u5bb3",
+            ""
+        ]
+    },
+    "FabricType": {
+        "prefix": "FabricType",
+        "body": [
+            "FabricType = ${1:},"
+        ],
+        "description": [
+            "\u7ec7\u7269\u7c7b\u522b",
+            ""
+        ]
+    },
+    "FatigueChange": {
+        "prefix": "FatigueChange",
+        "body": [
+            "FatigueChange = ${1:},"
+        ],
+        "description": [
+            "\u75b2\u52b3\u51e0\u7387",
+            ""
+        ]
+    },
+    "FillFromDispenserSound": {
+        "prefix": "FillFromDispenserSound",
+        "body": [
+            "FillFromDispenserSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "FillFromTapSound": {
+        "prefix": "FillFromTapSound",
+        "body": [
+            "FillFromTapSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "FireMode": {
+        "prefix": "FireMode",
+        "body": [
+            "FireMode = ${1:},"
+        ],
+        "description": [
+            "\u6b66\u5668\u5f00\u706b\u6a21\u5f0f",
+            ""
+        ]
+    },
+    "FireModePossibilities": {
+        "prefix": "FireModePossibilities",
+        "body": [
+            "FireModePossibilities = ${1:},"
+        ],
+        "description": [
+            "\u6b66\u5668\u53ef\u80fd\u7684\u5f00\u706b\u6a21\u5f0f",
+            ""
+        ]
+    },
+    "FirePower": {
+        "prefix": "FirePower",
+        "body": [
+            "FirePower = ${1:},"
+        ],
+        "description": [
+            "\u71c3\u70e7\u4f24\u5bb3",
+            ""
+        ]
+    },
+    "FireRange": {
+        "prefix": "FireRange",
+        "body": [
+            "FireRange = ${1:},"
+        ],
+        "description": [
+            "\u71c3\u70e7\u8303\u56f4",
+            ""
+        ]
+    },
+    "FishingLure": {
+        "prefix": "FishingLure",
+        "body": [
+            "FishingLure = ${1:},"
+        ],
+        "description": [
+            "\u9c7c\u9975\u9493\u9c7c\u51e0\u7387",
+            ""
+        ]
+    },
+    "FluReduction": {
+        "prefix": "FluReduction",
+        "body": [
+            "FluReduction = ${1:},"
+        ],
+        "description": [
+            "\u6d41\u611f\u6cbb\u6108",
+            ""
+        ]
+    },
+    "FoodType": {
+        "prefix": "FoodType",
+        "body": [
+            "FoodType = ${1:},"
+        ],
+        "description": [
+            "\u98df\u7269\u79cd\u7c7b",
+            ""
+        ]
+    },
+    "GoodHot": {
+        "prefix": "GoodHot",
+        "body": [
+            "GoodHot = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "GunType": {
+        "prefix": "GunType",
+        "body": [
+            "GunType = ${1:},"
+        ],
+        "description": [
+            "\u6b66\u5668\u79cd\u7c7b",
+            ""
+        ]
+    },
+    "HairDye": {
+        "prefix": "HairDye",
+        "body": [
+            "HairDye = ${1:},"
+        ],
+        "description": [
+            "\u67d3\u53d1\u5242",
+            ""
+        ]
+    },
+    "haveChamber": {
+        "prefix": "haveChamber",
+        "body": [
+            "haveChamber = ${1:},"
+        ],
+        "description": [
+            "\u6709\u5ba4\u5185\uff1f",
+            ""
+        ]
+    },
+    "HerbalistType": {
+        "prefix": "HerbalistType",
+        "body": [
+            "HerbalistType = ${1:},"
+        ],
+        "description": [
+            "\u8349\u836f\u7c7b\u522b",
+            ""
+        ]
+    },
+    "HitAngleMod": {
+        "prefix": "HitAngleMod",
+        "body": [
+            "HitAngleMod = ${1:},"
+        ],
+        "description": [
+            "\u547d\u4e2d\u89d2\u5ea6\u8c03\u6574",
+            ""
+        ]
+    },
+    "HitChance": {
+        "prefix": "HitChance",
+        "body": [
+            "HitChance = ${1:},"
+        ],
+        "description": [
+            "\u547d\u4e2d\u6982\u7387",
+            ""
+        ]
+    },
+    "HitChanceModifier": {
+        "prefix": "HitChanceModifier",
+        "body": [
+            "HitChanceModifier = ${1:},"
+        ],
+        "description": [
+            "\u547d\u4e2d\u6982\u7387\u8c03\u6574",
+            ""
+        ]
+    },
+    "HitFloorSound": {
+        "prefix": "HitFloorSound",
+        "body": [
+            "HitFloorSound = ${1:},"
+        ],
+        "description": [
+            "\u547d\u4e2d\u5730\u677f\u58f0\u97f3",
+            ""
+        ]
+    },
+    "HitSound": {
+        "prefix": "HitSound",
+        "body": [
+            "HitSound = ${1:},"
+        ],
+        "description": [
+            "\u547d\u4e2d\u58f0\u97f3",
+            ""
+        ]
+    },
+    "HungerChange": {
+        "prefix": "HungerChange",
+        "body": [
+            "HungerChange = ${1:},"
+        ],
+        "description": [
+            "\u9965\u997f\u51e0\u7387",
+            ""
+        ]
+    },
+    "Icon": {
+        "prefix": "Icon",
+        "body": [
+            "Icon = ${1:},"
+        ],
+        "description": [
+            "\u56fe\u6807",
+            ""
+        ]
+    },
+    "IdleAnim": {
+        "prefix": "IdleAnim",
+        "body": [
+            "IdleAnim = ${1:},"
+        ],
+        "description": [
+            "\u6302\u673a\u52a8\u4f5c",
+            ""
+        ]
+    },
+    "ImpactSound": {
+        "prefix": "ImpactSound",
+        "body": [
+            "ImpactSound = ${1:},"
+        ],
+        "description": [
+            "\u51b2\u51fb\u58f0\u97f3",
+            ""
+        ]
+    },
+    "InsertAllBulletsReload": {
+        "prefix": "InsertAllBulletsReload",
+        "body": [
+            "InsertAllBulletsReload = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "InsertAmmoSound": {
+        "prefix": "InsertAmmoSound",
+        "body": [
+            "InsertAmmoSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "InsertAmmoStartSound": {
+        "prefix": "InsertAmmoStartSound",
+        "body": [
+            "InsertAmmoStartSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "InsertAmmoStopSound": {
+        "prefix": "InsertAmmoStopSound",
+        "body": [
+            "InsertAmmoStopSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "IsAimedFirearm": {
+        "prefix": "IsAimedFirearm",
+        "body": [
+            "IsAimedFirearm = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "IsAimedHandWeapon": {
+        "prefix": "IsAimedHandWeapon",
+        "body": [
+            "IsAimedHandWeapon = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "IsCookable": {
+        "prefix": "IsCookable",
+        "body": [
+            "IsCookable = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "IsHighTier": {
+        "prefix": "IsHighTier",
+        "body": [
+            "IsHighTier = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "IsPortable": {
+        "prefix": "IsPortable",
+        "body": [
+            "IsPortable = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "IsTelevision": {
+        "prefix": "IsTelevision",
+        "body": [
+            "IsTelevision = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "IsWaterSource": {
+        "prefix": "IsWaterSource",
+        "body": [
+            "IsWaterSource = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ItemWhenDry": {
+        "prefix": "ItemWhenDry",
+        "body": [
+            "ItemWhenDry = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "JamGunChance": {
+        "prefix": "JamGunChance",
+        "body": [
+            "JamGunChance = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "KeepOnDeplete": {
+        "prefix": "KeepOnDeplete",
+        "body": [
+            "KeepOnDeplete = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "KnockBackOnNoDeath": {
+        "prefix": "KnockBackOnNoDeath",
+        "body": [
+            "KnockBackOnNoDeath = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "KnockdownMod": {
+        "prefix": "KnockdownMod",
+        "body": [
+            "KnockdownMod = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "LightDistance": {
+        "prefix": "LightDistance",
+        "body": [
+            "LightDistance = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "LightStrength": {
+        "prefix": "LightStrength",
+        "body": [
+            "LightStrength = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Lipids": {
+        "prefix": "Lipids",
+        "body": [
+            "Lipids = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "LvlSkillTrained": {
+        "prefix": "LvlSkillTrained",
+        "body": [
+            "LvlSkillTrained = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MagazineType": {
+        "prefix": "MagazineType",
+        "body": [
+            "MagazineType = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MakeUpType": {
+        "prefix": "MakeUpType",
+        "body": [
+            "MakeUpType = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ManuallyRemoveSpentRounds": {
+        "prefix": "ManuallyRemoveSpentRounds",
+        "body": [
+            "ManuallyRemoveSpentRounds = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Map": {
+        "prefix": "Map",
+        "body": [
+            "Map = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MaxAmmo": {
+        "prefix": "MaxAmmo",
+        "body": [
+            "MaxAmmo = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MaxChannel": {
+        "prefix": "MaxChannel",
+        "body": [
+            "MaxChannel = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MaxDamage": {
+        "prefix": "MaxDamage",
+        "body": [
+            "MaxDamage = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MaxHitCount": {
+        "prefix": "MaxHitCount",
+        "body": [
+            "MaxHitCount = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MaxRange": {
+        "prefix": "MaxRange",
+        "body": [
+            "MaxRange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MaxRangeModifier": {
+        "prefix": "MaxRangeModifier",
+        "body": [
+            "MaxRangeModifier = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MediaCategory": {
+        "prefix": "MediaCategory",
+        "body": [
+            "MediaCategory = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Medical": {
+        "prefix": "Medical",
+        "body": [
+            "Medical = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MetalValue": {
+        "prefix": "MetalValue",
+        "body": [
+            "MetalValue = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MicRange": {
+        "prefix": "MicRange",
+        "body": [
+            "MicRange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MinAngle": {
+        "prefix": "MinAngle",
+        "body": [
+            "MinAngle = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MinChannel": {
+        "prefix": "MinChannel",
+        "body": [
+            "MinChannel = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MinDamage": {
+        "prefix": "MinDamage",
+        "body": [
+            "MinDamage = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MinimumSwingTime": {
+        "prefix": "MinimumSwingTime",
+        "body": [
+            "MinimumSwingTime = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MinRange": {
+        "prefix": "MinRange",
+        "body": [
+            "MinRange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MinRangeModifier": {
+        "prefix": "MinRangeModifier",
+        "body": [
+            "MinRangeModifier = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MinutesToBurn": {
+        "prefix": "MinutesToBurn",
+        "body": [
+            "MinutesToBurn = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MinutesToCook": {
+        "prefix": "MinutesToCook",
+        "body": [
+            "MinutesToCook = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ModelWeaponPart": {
+        "prefix": "ModelWeaponPart",
+        "body": [
+            "ModelWeaponPart = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MountOn": {
+        "prefix": "MountOn",
+        "body": [
+            "MountOn = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "MultipleHitConditionAffected": {
+        "prefix": "MultipleHitConditionAffected",
+        "body": [
+            "MultipleHitConditionAffected = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "NoiseDuration": {
+        "prefix": "NoiseDuration",
+        "body": [
+            "NoiseDuration = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "NoiseRange": {
+        "prefix": "NoiseRange",
+        "body": [
+            "NoiseRange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "NoTransmit": {
+        "prefix": "NoTransmit",
+        "body": [
+            "NoTransmit = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "NPCSoundBoost": {
+        "prefix": "NPCSoundBoost",
+        "body": [
+            "NPCSoundBoost = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "NumberOfPages": {
+        "prefix": "NumberOfPages",
+        "body": [
+            "NumberOfPages = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "NumLevelsTrained": {
+        "prefix": "NumLevelsTrained",
+        "body": [
+            "NumLevelsTrained = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "OBSOLETE": {
+        "prefix": "OBSOLETE",
+        "body": [
+            "OBSOLETE = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Obsolete": {
+        "prefix": "Obsolete",
+        "body": [
+            "Obsolete = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "OnCooked": {
+        "prefix": "OnCooked",
+        "body": [
+            "OnCooked = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "OnCreate": {
+        "prefix": "OnCreate",
+        "body": [
+            "OnCreate = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "OnEat": {
+        "prefix": "OnEat",
+        "body": [
+            "OnEat = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "OnlyAcceptCategory": {
+        "prefix": "OnlyAcceptCategory",
+        "body": [
+            "OnlyAcceptCategory = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "OpenSound": {
+        "prefix": "OpenSound",
+        "body": [
+            "OpenSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "OtherHandRequire": {
+        "prefix": "OtherHandRequire",
+        "body": [
+            "OtherHandRequire = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "OtherHandUse": {
+        "prefix": "OtherHandUse",
+        "body": [
+            "OtherHandUse = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Packaged": {
+        "prefix": "Packaged",
+        "body": [
+            "Packaged = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Padlock": {
+        "prefix": "Padlock",
+        "body": [
+            "Padlock = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PageToWrite": {
+        "prefix": "PageToWrite",
+        "body": [
+            "PageToWrite = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PainReduction": {
+        "prefix": "PainReduction",
+        "body": [
+            "PainReduction = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PartType": {
+        "prefix": "PartType",
+        "body": [
+            "PartType = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PhysicsObject": {
+        "prefix": "PhysicsObject",
+        "body": [
+            "PhysicsObject = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PiercingBullets": {
+        "prefix": "PiercingBullets",
+        "body": [
+            "PiercingBullets = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PlacedSprite": {
+        "prefix": "PlacedSprite",
+        "body": [
+            "PlacedSprite = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PlaceMultipleSound": {
+        "prefix": "PlaceMultipleSound",
+        "body": [
+            "PlaceMultipleSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PlaceOneSound": {
+        "prefix": "PlaceOneSound",
+        "body": [
+            "PlaceOneSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Poison": {
+        "prefix": "Poison",
+        "body": [
+            "Poison = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PoisonDetectionLevel": {
+        "prefix": "PoisonDetectionLevel",
+        "body": [
+            "PoisonDetectionLevel = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PoisonPower": {
+        "prefix": "PoisonPower",
+        "body": [
+            "PoisonPower = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "primaryAnimMask": {
+        "prefix": "primaryAnimMask",
+        "body": [
+            "primaryAnimMask = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ProjectileCount": {
+        "prefix": "ProjectileCount",
+        "body": [
+            "ProjectileCount = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ProtectFromRainWhenEquipped": {
+        "prefix": "ProtectFromRainWhenEquipped",
+        "body": [
+            "ProtectFromRainWhenEquipped = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Proteins": {
+        "prefix": "Proteins",
+        "body": [
+            "Proteins = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PushBackMod": {
+        "prefix": "PushBackMod",
+        "body": [
+            "PushBackMod = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "PutInSound": {
+        "prefix": "PutInSound",
+        "body": [
+            "PutInSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RackAfterShoot": {
+        "prefix": "RackAfterShoot",
+        "body": [
+            "RackAfterShoot = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RackSound": {
+        "prefix": "RackSound",
+        "body": [
+            "RackSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RainFactor": {
+        "prefix": "RainFactor",
+        "body": [
+            "RainFactor = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Ranged": {
+        "prefix": "Ranged",
+        "body": [
+            "Ranged = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RangeFalloff": {
+        "prefix": "RangeFalloff",
+        "body": [
+            "RangeFalloff = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RecoilDelay": {
+        "prefix": "RecoilDelay",
+        "body": [
+            "RecoilDelay = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RecoilDelayModifier": {
+        "prefix": "RecoilDelayModifier",
+        "body": [
+            "RecoilDelayModifier = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReduceFoodSickness": {
+        "prefix": "ReduceFoodSickness",
+        "body": [
+            "ReduceFoodSickness = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReduceInfectionPower": {
+        "prefix": "ReduceInfectionPower",
+        "body": [
+            "ReduceInfectionPower = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReloadTime": {
+        "prefix": "ReloadTime",
+        "body": [
+            "ReloadTime = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReloadTimeModifier": {
+        "prefix": "ReloadTimeModifier",
+        "body": [
+            "ReloadTimeModifier = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RemoteController": {
+        "prefix": "RemoteController",
+        "body": [
+            "RemoteController = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RemoteRange": {
+        "prefix": "RemoteRange",
+        "body": [
+            "RemoteRange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RemoveNegativeEffectOnCooked": {
+        "prefix": "RemoveNegativeEffectOnCooked",
+        "body": [
+            "RemoveNegativeEffectOnCooked = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RemoveUnhappinessWhenCooked": {
+        "prefix": "RemoveUnhappinessWhenCooked",
+        "body": [
+            "RemoveUnhappinessWhenCooked = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReplaceInPrimaryHand": {
+        "prefix": "ReplaceInPrimaryHand",
+        "body": [
+            "ReplaceInPrimaryHand = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReplaceInSecondHand": {
+        "prefix": "ReplaceInSecondHand",
+        "body": [
+            "ReplaceInSecondHand = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReplaceOnCooked": {
+        "prefix": "ReplaceOnCooked",
+        "body": [
+            "ReplaceOnCooked = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReplaceOnDeplete": {
+        "prefix": "ReplaceOnDeplete",
+        "body": [
+            "ReplaceOnDeplete = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReplaceOnRotten": {
+        "prefix": "ReplaceOnRotten",
+        "body": [
+            "ReplaceOnRotten = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReplaceOnUse": {
+        "prefix": "ReplaceOnUse",
+        "body": [
+            "ReplaceOnUse = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReplaceOnUseOn": {
+        "prefix": "ReplaceOnUseOn",
+        "body": [
+            "ReplaceOnUseOn = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ReplaceTypes": {
+        "prefix": "ReplaceTypes",
+        "body": [
+            "ReplaceTypes = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RequireInHandOrInventory": {
+        "prefix": "RequireInHandOrInventory",
+        "body": [
+            "RequireInHandOrInventory = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RequiresEquippedBothHands": {
+        "prefix": "RequiresEquippedBothHands",
+        "body": [
+            "RequiresEquippedBothHands = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RunAnim": {
+        "prefix": "RunAnim",
+        "body": [
+            "RunAnim = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "RunSpeedModifier": {
+        "prefix": "RunSpeedModifier",
+        "body": [
+            "RunSpeedModifier = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ScaleWorldIcon": {
+        "prefix": "ScaleWorldIcon",
+        "body": [
+            "ScaleWorldIcon = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "secondaryAnimMask": {
+        "prefix": "secondaryAnimMask",
+        "body": [
+            "secondaryAnimMask = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SensorRange": {
+        "prefix": "SensorRange",
+        "body": [
+            "SensorRange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ShareDamage": {
+        "prefix": "ShareDamage",
+        "body": [
+            "ShareDamage = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ShellFallSound": {
+        "prefix": "ShellFallSound",
+        "body": [
+            "ShellFallSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SkillTrained": {
+        "prefix": "SkillTrained",
+        "body": [
+            "SkillTrained = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SmokeRange": {
+        "prefix": "SmokeRange",
+        "body": [
+            "SmokeRange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SoundGain": {
+        "prefix": "SoundGain",
+        "body": [
+            "SoundGain = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SoundMap": {
+        "prefix": "SoundMap",
+        "body": [
+            "SoundMap = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SoundRadius": {
+        "prefix": "SoundRadius",
+        "body": [
+            "SoundRadius = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SoundVolume": {
+        "prefix": "SoundVolume",
+        "body": [
+            "SoundVolume = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Spice": {
+        "prefix": "Spice",
+        "body": [
+            "Spice = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SplatBloodOnNoDeath": {
+        "prefix": "SplatBloodOnNoDeath",
+        "body": [
+            "SplatBloodOnNoDeath = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SplatNumber": {
+        "prefix": "SplatNumber",
+        "body": [
+            "SplatNumber = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SplatSize": {
+        "prefix": "SplatSize",
+        "body": [
+            "SplatSize = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "StaticModel": {
+        "prefix": "StaticModel",
+        "body": [
+            "StaticModel = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "StopPower": {
+        "prefix": "StopPower",
+        "body": [
+            "StopPower = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "StressChange": {
+        "prefix": "StressChange",
+        "body": [
+            "StressChange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SubCategory": {
+        "prefix": "SubCategory",
+        "body": [
+            "SubCategory = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SurvivalGear": {
+        "prefix": "SurvivalGear",
+        "body": [
+            "SurvivalGear = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SwingAmountBeforeImpact": {
+        "prefix": "SwingAmountBeforeImpact",
+        "body": [
+            "SwingAmountBeforeImpact = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SwingAnim": {
+        "prefix": "SwingAnim",
+        "body": [
+            "SwingAnim = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SwingSound": {
+        "prefix": "SwingSound",
+        "body": [
+            "SwingSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "SwingTime": {
+        "prefix": "SwingTime",
+        "body": [
+            "SwingTime = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Tags": {
+        "prefix": "Tags",
+        "body": [
+            "Tags = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "TeachedRecipes": {
+        "prefix": "TeachedRecipes",
+        "body": [
+            "TeachedRecipes = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ThirstChange": {
+        "prefix": "ThirstChange",
+        "body": [
+            "ThirstChange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ticksPerEquipUse": {
+        "prefix": "ticksPerEquipUse",
+        "body": [
+            "ticksPerEquipUse = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "ToHitModifier": {
+        "prefix": "ToHitModifier",
+        "body": [
+            "ToHitModifier = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Tooltip": {
+        "prefix": "Tooltip",
+        "body": [
+            "Tooltip = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "TorchCone": {
+        "prefix": "TorchCone",
+        "body": [
+            "TorchCone = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "TorchDot": {
+        "prefix": "TorchDot",
+        "body": [
+            "TorchDot = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "TransmitRange": {
+        "prefix": "TransmitRange",
+        "body": [
+            "TransmitRange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Trap": {
+        "prefix": "Trap",
+        "body": [
+            "Trap = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "TreeDamage": {
+        "prefix": "TreeDamage",
+        "body": [
+            "TreeDamage = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "triggerExplosionTimer": {
+        "prefix": "triggerExplosionTimer",
+        "body": [
+            "triggerExplosionTimer = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "TriggerExplosionTimer": {
+        "prefix": "TriggerExplosionTimer",
+        "body": [
+            "TriggerExplosionTimer = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "TwoHandWeapon": {
+        "prefix": "TwoHandWeapon",
+        "body": [
+            "TwoHandWeapon = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "TwoWay": {
+        "prefix": "TwoWay",
+        "body": [
+            "TwoWay = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Type": {
+        "prefix": "Type",
+        "body": [
+            "Type = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "UnequipSound": {
+        "prefix": "UnequipSound",
+        "body": [
+            "UnequipSound = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "UnhappyChange": {
+        "prefix": "UnhappyChange",
+        "body": [
+            "UnhappyChange = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "UseDelta": {
+        "prefix": "UseDelta",
+        "body": [
+            "UseDelta = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "UseEndurance": {
+        "prefix": "UseEndurance",
+        "body": [
+            "UseEndurance = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "UseForPoison": {
+        "prefix": "UseForPoison",
+        "body": [
+            "UseForPoison = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "UsesBattery": {
+        "prefix": "UsesBattery",
+        "body": [
+            "UsesBattery = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "UseSelf": {
+        "prefix": "UseSelf",
+        "body": [
+            "UseSelf = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "UseWhileEquipped": {
+        "prefix": "UseWhileEquipped",
+        "body": [
+            "UseWhileEquipped = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "UseWhileUnequipped": {
+        "prefix": "UseWhileUnequipped",
+        "body": [
+            "UseWhileUnequipped = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "UseWorldItem": {
+        "prefix": "UseWorldItem",
+        "body": [
+            "UseWorldItem = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "WeaponLength": {
+        "prefix": "WeaponLength",
+        "body": [
+            "WeaponLength = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "WeaponReloadType": {
+        "prefix": "WeaponReloadType",
+        "body": [
+            "WeaponReloadType = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "WeaponSprite": {
+        "prefix": "WeaponSprite",
+        "body": [
+            "WeaponSprite = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "WeaponWeight": {
+        "prefix": "WeaponWeight",
+        "body": [
+            "WeaponWeight = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Weight": {
+        "prefix": "Weight",
+        "body": [
+            "Weight = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "WeightEmpty": {
+        "prefix": "WeightEmpty",
+        "body": [
+            "WeightEmpty = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "WeightModifier": {
+        "prefix": "WeightModifier",
+        "body": [
+            "WeightModifier = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "WeightReduction": {
+        "prefix": "WeightReduction",
+        "body": [
+            "WeightReduction = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "Wet": {
+        "prefix": "Wet",
+        "body": [
+            "Wet = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "WetCooldown": {
+        "prefix": "WetCooldown",
+        "body": [
+            "WetCooldown = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "WorldObjectSprite": {
+        "prefix": "WorldObjectSprite",
+        "body": [
+            "WorldObjectSprite = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    },
+    "WorldStaticModel": {
+        "prefix": "WorldStaticModel",
+        "body": [
+            "WorldStaticModel = ${1:},"
+        ],
+        "description": [
+            "",
+            ""
+        ]
+    }
+}
