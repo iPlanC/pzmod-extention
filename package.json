@@ -5,7 +5,7 @@
 	"description": "Project Zomboid Mod Extention",
 	"author": "PlanC",
 	"license": "MIT",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"publisher": "PlanC",
 	"categories": [
 		"Programming Languages"
@@ -26,25 +26,25 @@
 		],
 		"languages": [
 			{
-			  "id": "PZMod",
-			  "aliases": [
-				"PZMod"
-			  ],
-			  "extensions": [
-				".txt"
-			  ],
-			  "configuration": "./language-configuration.json",
-			  "icon": {
-				  "dark": "./icon.png",
-				  "light": "./icon.png"
-			  }
+				"id": "PZMod",
+				"aliases": [
+					"PZMod"
+				],
+				"extensions": [
+					".txt"
+				],
+				"configuration": "./language-configuration.json",
+				"icon": {
+					"dark": "./icon.png",
+					"light": "./icon.png"
+				}
 			}
 		],
 		"grammars": [
 			{
-			  "language": "PZMod",
-			  "scopeName": "source.txt",
-			  "path": "./syntaxes/pzmod.tmLanguage.json"
+				"language": "PZMod",
+				"scopeName": "source.txt",
+				"path": "./syntaxes/pzmod.tmLanguage.json"
 			}
 		]
 	}
